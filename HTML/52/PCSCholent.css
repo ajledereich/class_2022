@@ -1,0 +1,33 @@
+html{
+  background-color: black;
+}
+header{
+  text-anchor: middle;
+  text-align: center;
+  width: 100%;
+  border : 2px solid orangered;
+   background-color: black;
+   height: 15em;
+   margin: 0 auto;
+    padding-top: 5em;
+    box-sizing: border-box;
+}
+span{
+  font-size: 2em;
+  font-weight: 500;
+  font: bold;
+  font-style: block;
+}
+  
+
+body{
+  color: white;
+}
+p{
+  font-size: 20px;
+  font-weight: 500;
+  font: bold;
+  font-style: block;
+  border-top: 1px solid orangered;
+  padding-top: 32px;
+}
