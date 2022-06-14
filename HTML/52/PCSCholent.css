@@ -6,6 +6,8 @@ header{
   text-align: center;
   width: 100%;
   border : 2px solid orangered;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
    background-color: black;
    height: 15em;
    margin: 0 auto;
@@ -23,11 +25,15 @@ span{
 body{
   color: white;
 }
-p{
+footer{
   font-size: 20px;
   font-weight: 500;
   font: bold;
   font-style: block;
   border-top: 1px solid orangered;
   padding-top: 32px;
+  margin-top: 32px;
+}
+footer img{
+  border-radius: 50%;
 }
