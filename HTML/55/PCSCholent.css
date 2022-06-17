@@ -1,0 +1,117 @@
+html{
+  background-color: black;
+}
+/*header{
+  text-anchor: middle;
+  text-align: center;
+  width: 100%;
+  border : 2px solid orangered;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+   background-color: black;
+   height: 15em;
+   margin: 0 auto;
+    padding-top: 5em;
+    box-sizing: border-box;
+    position: fixed;
+
+}*/
+audio{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+}
+
+body{
+  color: white;
+}
+/*footer{
+  font-size: 20px;
+  font-weight: 500;
+  font: bold;
+  font-style: block;
+  border-top: 1px solid orangered;
+  padding-top: 32px;
+  margin-top: 32px;
+}*/
+footer img{
+  border-radius: 50%;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+
+}
+footer{
+  position: fixed;
+  color: red;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  bottom: 0;
+  border-radius: 30px;
+}
+header{
+  position: fixed;
+  text-anchor: middle;
+  text-align: center;
+  border : 2px solid orangered;
+  border-bottom-left-radius: 60px;
+   height: 8em;
+    padding-top: 5em;
+    box-sizing: border-box;
+    position: fixed;
+    right: 8px;
+    margin-right: 0%;
+    width: 200px;
+    top : 4px;
+}
+
+header p{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Bad Script', cursive;
+  text-shadow: 4px 4px 4px white;
+  position: absolute;
+  top : 0;
+  bottom: auto;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  padding-top: 1px;
+  right: 10px;
+}
+footer p{
+  padding-top: 1px;
+}
+p a{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-decoration: none;
+  font-size: xx-large;
+  text-align: center;;
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  
+
+}
+:hover p a{
+  font-size: 3em;
+}
+nav a{
+  position: fixed;
+  bottom: 140px;
+  left: 50%;
+font-family: 'Bad Script', cursive;
+font-size: x-large;
+font-weight: bold;
+text-decoration: none;
+color: white;
+}
