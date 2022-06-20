@@ -1,6 +1,9 @@
 html{
   background-color: black;
 }
+body{
+  margin-bottom: 150px;
+}
 /*header{
   text-anchor: middle;
   text-align: center;
@@ -67,7 +70,7 @@ header{
     box-sizing: border-box;
     position: fixed;
     right: 8px;
-    margin-right: 0%;
+    margin: auto;
     width: 200px;
     top : 4px;
 }
@@ -108,7 +111,7 @@ p a{
 nav a{
   position: fixed;
   bottom: 140px;
-  left: 50%;
+  left: 48%;
 font-family: 'Bad Script', cursive;
 font-size: x-large;
 font-weight: bold;
