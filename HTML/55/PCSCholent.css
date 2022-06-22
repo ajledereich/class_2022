@@ -74,10 +74,15 @@ header{
     width: 200px;
     top : 4px;
 }
+header p::first-letter
+{
+  font-size: 2em;
+}
+  
 
 header p{
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Bad Script', cursive;
   text-shadow: 4px 4px 4px white;
   position: absolute;
