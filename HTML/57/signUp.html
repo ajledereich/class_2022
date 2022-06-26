@@ -1,0 +1,120 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCS Cholent</title>
+  <link rel="stylesheet" href="PCSCholent.css">
+  <style>
+    label, input{
+   font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
+    display: block;
+    border-radius: 20px;
+  }
+    form{
+      Margin: 0 auto;
+      margin-top: 6em;
+      width: 50%;
+
+    }
+ 
+  textarea{
+    font-family: 'Bad Script', cursive;
+    font-size: 1em;
+    display: block;
+    margin-top: 1em;
+    border-radius: 20px;
+    width: 100%;
+  }
+  h1{
+    position: fixed;
+    top : 0;
+    font-family: 'Bad Script', cursive;
+    font-size: 2em;
+    left: 2em ;
+  }
+  label{
+    margin-top: 10%;
+  }
+#confirm_password{
+  margin-top: 1em;
+}
+@media screen and (max-width: 950px) {
+    
+    h1{
+
+      transform: rotate(90deg);
+      left: -90px;
+      top: 120px;
+    
+    }
+    
+  }
+  #submit{
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+   <header><p>PCS CHOLENT</p></header>
+
+
+  <h1>Sign Up To Get Updated Info!</h1>
+
+   <form method="POST" action="">
+
+    <label for= "first">First Name:</label>
+      <input name="first" required/>
+    
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" name="last" required/>
+
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Set a password" id="password" name="password" required/>
+    <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0" max="120" step="any"/>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required/>
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday" value="2000-01-01"/>
+
+    <label for="telephone">Phone Number:</label>
+    <input type="tel" id="telephone" name="telephone" />
+
+    <label for="rating">Rate us:</label>
+    <input type="range" id="rating" name="rating" min="0" max="10"/>
+
+    <label for="comments">Leave us a comment:</label>
+    <textarea name="comment" id="comments" placeholder="You'r comment!"></textarea>
+
+    <label for="submit"> Click to Submit</label>
+    <input id="submit" type="submit" />
+  </form>
+
+
+  <nav><a href="index.html">Home</a>~<a href="calander.html">Hours</a>~<a href="menu.html">Menu</a>~<a href="signUp.html">SignUp</a></nav>
+
+<footer> 
+  
+  <a href="index.html"><img src="images/resturantView.jfif" alt=""></a>
+  <a href="https://www.instagram.com/"><img src="images/instagram.jfif" alt=""></a>
+  <a href="https://twitter.com/"><img src="images/twitter.png" alt=""></a>
+  <a href="https://www.facebook.com/"><img src="images/facebook.png" alt=""></a>
+ <p>&copy; 2022 pcs cholent All rights reserved.</p></footer>
+ <audio src="images/slowJazz.mp3" controls loop></audio>
+</body>
+</html>
